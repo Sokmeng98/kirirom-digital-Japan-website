@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+markdown-content {
+  @apply flex flex-col items-center flex-wrap;
+}
+
+.markdown-content h1 {
+  @apply text-2xl font-bold text-[#091C3E] px-2 py-2;
+}
+.markdown-content h2 {
+  @apply text-lg font-bold text-[#091C3E] px-3 py-2;
+}
+
+markdown-content h3 {
+  @apply text-lg font-bold text-[#091C3E] px-4 py-2;
+}
+.markdown-content p {
+  @apply text-base text-[#091C3E] px-5 py-2;
+}
+.markdown-content ul {
+  @apply list-disc ml-10;
+}
+.markdown-content img {
+  @apply h-auto md:h-72 mx-auto;
+}
+.markdown-content a {
+  @apply text-[#091C3E] underline truncate;
+}
+.animate-gradient {
+  background-size: 300%;
+  -webkit-animation: animatedgradient 6s ease infinite alternate;
+  -moz-animation: animatedgradient 6s ease infinite alternate;
+  animation: animatedgradient 6s ease infinite alternate;
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

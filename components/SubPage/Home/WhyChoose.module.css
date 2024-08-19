@@ -1,0 +1,44 @@
+.sectionTitle {
+  color: #1b414e;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.itemTitle {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 8px;
+}
+
+.itemSubtitle {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.ctaLink {
+  display: flex;
+  align-items: center;
+  color: #F22400;
+  cursor: "pointer";
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 8px;
+  margin-top: auto;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  text-decoration: underline;
+  letter-spacing: normal;
+}
+
+.ctaLink:hover {
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 576px) {
+  .sectionTitle {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,49 @@
+/* theme color */
+.bg-kd-primary {
+  background-color: #091C3E !important;
+}
+
+.bg-kd-secondary {
+  background-color: #DCE2ED !important;
+}
+
+.text-primary {
+  color: #091C3E !important;
+}
+
+.text-kd-white {
+  color: #F4F7FB !important;
+}
+
+/* shadow */
+.shadow-bottom {
+  -moz-box-shadow: 1px 2px 3px rgba(0, 28, 88, 0.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0, 28, 88, 0.5);
+  box-shadow: 1px 2px 4px rgba(0, 28, 88, 0.5);
+}
+
+/* sizes */
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+/* typography */
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-16 {
+  /* font-size: 16px; */
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}

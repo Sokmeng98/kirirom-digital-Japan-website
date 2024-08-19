@@ -1,0 +1,250 @@
+.bdPlaceholderImg {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bdPlaceholderImgLg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .carouselInner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.underline {
+  margin-top: 0.7rem;
+  height: 3px;
+  width: 100px;
+  background-color: #091C3E;
+}
+
+  /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  /* .carousel-caption {
+    z-index: 10;
+  }
+   */
+  /* Declare heights because of positioning of img element */
+  .carouselItem {
+    height: 32rem;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+  /* rtl:end:remove */
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+  .textShadow {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 1), 0 -1px 1px rgba(0, 0, 0, 1);    
+  }
+  .containerWhite {
+    color: #1b414e;
+    background-color: #ffffff;
+  }
+
+  .keyButton {
+    --bs-btn-color: #091c3e;
+    --bs-btn-bg: #cdfb0a;
+    --bs-btn-border-color: #cdfb0a;
+    --bs-btn-hover-color: #cdfb0a;
+    --bs-btn-hover-bg: #050f21;
+    --bs-btn-hover-border-color: #cdfb0a;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+  
+    border-radius: 0.1em;
+    font-weight: bold;
+  }
+
+  .kiriromCard {
+    border-color: #050f21;
+    color: #ffffff;
+    background-color: #091c3e;
+
+  }
+
+.redButton {
+  background-color: red;
+  color: white;
+  padding: 16px 24px;
+  cursor: pointer;
+}
+
+.ourCompanyDesc {
+  font-size: 20px;
+}
+
+.contactBG {
+  background-image: url('/images/contact_us.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  box-shadow: inset 0 0 0 1000px rgba(9, 28, 62, 0.7);
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 6px;
+}
+
+/* News/Article Section */
+.blogItem {
+  cursor: pointer;
+}
+
+.blogItem:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.blogImg {
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.blogImg img {
+  border-radius: 12px;
+}
+
+.blogTitle {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.blogTag {
+  font-size: 14px;
+  font-weight: 300;
+  background-color: #091C3E;
+  color: #fff;
+  margin-right: 8px;
+  margin-top: 1px;
+  padding: 2px 8px 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.blogSubtitle {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .ourCompanyDesc {
+    font-size: 14px;
+    text-align: center;
+  }
+}

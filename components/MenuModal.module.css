@@ -1,0 +1,75 @@
+.modalDialog {
+  max-width: 100%;
+  margin: 0;
+}
+
+.modalContent {
+  height: 100vh;
+  border: none;
+  border-radius: 0;
+}
+
+.modalHeader {
+  border-bottom: none;
+}
+
+.modalBody {
+  padding: 0;
+}
+
+.listGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  flex-grow: 1;
+}
+
+.listGroupItem {
+  border: none;
+  background-color: transparent;
+  padding: 1rem 0;
+}
+
+.listGroupItem:first-child {
+  border-top: none;
+}
+
+.listGroupItem:last-child {
+  border-bottom: none;
+}
+
+.listGroupItem a {
+  font-size: 18px;
+}
+
+.navLink {
+  text-decoration: none;
+  position: relative;
+  color: #1b414e;
+}
+
+/* underline style that slides in on hover the text */
+.navLink::after {
+  content: '';
+  position: absolute;
+  right: -20;
+  bottom: -2px;
+  width: 30%;
+  height: 2px;
+  background-color: #000;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.3s ease;
+}
+
+.navLink:hover::after {
+  transform: scaleX(-1);
+}
+
+.contactUsBtn {
+  width: 100%;
+  color: red;
+  padding: 1rem 0;
+  font-size: 18px;
+}

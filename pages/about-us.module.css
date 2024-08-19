@@ -1,0 +1,90 @@
+.companyInfoItem {}
+
+.companyInfoTitle {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.companyInfoDesc {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.strategyDesc {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.managementTitle {
+  padding: 24px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.managementDesc {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.ourTeamName {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ourTeamPosition {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.applyNow {
+  color: #F22400;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contactUsLeft {
+  background-image: url('/images/footerbg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 28, 88, 0.5);
+}
+
+.contactUsLeftDesc {
+  font-size: 14px;
+}
+
+.inputForm {
+  padding: 1rem;
+  border: 1px solid white;
+  width: 100%;
+  color: white;
+  background-color: #091C3E;
+}
+
+.inputForm::placeholder {
+  color: white;
+}
+
+.submitButton {
+  width: 100%;
+  color: white;
+  background-color: #F22400;
+  font-weight: 500;
+  padding: 16px;
+}
+
+/* responsive */
+@media (min-width: 576px) {
+  .strategyDesc {
+    font-size: 18px;
+  }
+
+  .contactUsLeftDesc {
+    font-size: 20px;
+  }
+}
